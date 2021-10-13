@@ -1,2 +1,4 @@
  # Ignore the pychache directory
-__pychache__
+__pychache__/
+ # Ignore .DS_Store created by Mac_os
+.DS_Store
