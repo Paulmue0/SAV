@@ -4,7 +4,7 @@ import numpy as np
 
 
 def create_rand_array(size):
-	return np.random.randint(100,size = size)
+	return np.random.randint(-100, 100,size = size)
 
 # Checks whether the array is sorted
 def isSorted(arr):

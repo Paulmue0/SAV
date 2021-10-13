@@ -11,7 +11,7 @@ def sort(arr):
 			if arr[i] > arr[i+1]:
 				blob.swap(arr, i, i+1)
 				bubblesorted = False
-				plot.redraw_plt(arr, i, i+1, 'green')
+				plot.redraw_plt(arr, "Bubblesort", x =i, y = i+1, col = 'green')
 			else:
-				plot.redraw_plt(arr, i, i+1, 'gray')
+				plot.redraw_plt(arr, "Bubblesort", x =i, y = i+1, col = 'blue')
 		index_last_sorted -= 1
