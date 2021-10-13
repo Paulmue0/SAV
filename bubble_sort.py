@@ -1,4 +1,4 @@
-import sort_alg_helper as sah
+import blobs as blob
 
 
 #Sorts array using bubblesort
@@ -8,10 +8,10 @@ def sort(arr):
 		bubblesorted = True
 		for i in range (arr.size -1):
 			if arr[i] > arr[i+1]:
-				sah.swap(arr, i, i+1)
+				blob.swap(arr, i, i+1)
 				bubblesorted = False
 
 
 def sort_step(arr):
-	if(not sah.isSorted(arr)):
+	if(not blob.isSorted(arr)):
 		pass
