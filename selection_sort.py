@@ -4,7 +4,6 @@ import plot
 #Sorts array using selection-sort
 def sort(arr):
 	for i in range(arr.size):
-		print(arr.size)
 		min = i
 		for j in range((i+1),(arr.size)):
 			if arr[j] < arr[min]:
